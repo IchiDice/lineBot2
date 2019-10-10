@@ -29,7 +29,6 @@ def callback():
     else :
         sendtext(user,'ไม่รู้')
     return '',200
-
 def sendText(user, text):
   LINE_API = 'https://api.line.me/v2/bot/message/reply'
   headers = {
